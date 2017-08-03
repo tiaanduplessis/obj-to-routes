@@ -1,0 +1,32 @@
+{
+  "name": "obj-to-routes",
+  "version": "1.0.0",
+  "description": "Convert object to array of URL routes with associated value",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/tiaanduplessis/obj-to-routes",
+    "type": "git"
+  },
+  "homepage": "https://github.com/tiaanduplessis/obj-to-routes",
+  "bugs": "https://github.com/tiaanduplessis/obj-to-routes",
+  "main": "index.js",
+
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "cov": "npm test -- --coverage",
+    "format": "prettier-standard index.js",
+    "format:fix": "npm run format -- --fix",
+    "start": "npm run test",
+    "precommit": "npm test",
+    "pretest": "npm run format:fix"
+  },
+  "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "husky": "^0.14.3",
+    "prettier-standard": "^6.0.0"
+  }
+}
