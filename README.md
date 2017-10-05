@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/obj-to-routes.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install obj-to-routes
 # OR
